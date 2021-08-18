@@ -634,6 +634,7 @@ Return a copy of the string with leading characters removed.
 str.replace(old, new[, count])
 ```
 Return a copy of the string with all occurrences of substring `old` replaced by `new`.
+If the optional argument `count` is given, only the first `count` occurrences are replaced.
 
 ### 3.1.11. `rfind()`
 ```py
